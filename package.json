@@ -1,0 +1,13 @@
+{
+  "name": "designer-backend-skeleton-node",
+  "version": "1.0.0",
+  "description": "Shirtnetwork Designer backend node implementation",
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "author": "Alexander Kludt",
+  "dependencies": {
+    "designer-backend-node": "file:../designer-backend-node",
+    "yargs": "^16.2.0"
+  }
+}

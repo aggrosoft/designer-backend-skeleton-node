@@ -1,0 +1,29 @@
+{
+  "port": "8080",
+  "debug": false,
+  "allowed-origins": "*",
+  "db": {
+    "path": "var/db/"
+  },
+  "config": {
+    "path": "var/configs/",
+    "tmp": "var/tmp/",
+    "cache_previews": false
+  },
+  "fonts": {
+    "path": "var/fonts/"
+  },
+  "twig": {
+    "cache": "var/twig/"
+  },
+  "upload": {
+    "path": "var/uploads/",
+    "cache": "var/uploadsmeta/",
+    "tmp": "var/tmp/"
+  },
+  "auth": {
+    "users": {
+      "user": "passw0rd"
+    }
+  }
+}
