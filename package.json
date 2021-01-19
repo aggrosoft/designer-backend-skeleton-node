@@ -7,7 +7,7 @@
   },
   "author": "Alexander Kludt",
   "dependencies": {
-    "designer-backend-node": "file:../designer-backend-node",
+    "designer-backend-node": "^1.0.1",
     "yargs": "^16.2.0"
   }
 }
