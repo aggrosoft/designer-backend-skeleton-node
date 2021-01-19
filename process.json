@@ -1,0 +1,9 @@
+{
+  "watch": true,
+  "script": "npm -- run serve -- --config \"./config.sample.json\"",
+  "ignore_watch" : ["node_modules", "var"],
+  "watch_options": {
+    "followSymlinks": false
+  },
+  "name": "designer-backend-node"
+}
