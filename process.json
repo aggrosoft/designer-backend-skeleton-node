@@ -1,7 +1,7 @@
 {
   "watch": true,
   "script": "./index.js",
-  "args": "--config config.sample.json",
+  "args": "--config config.json",
   "ignore_watch" : ["node_modules", "var"],
   "watch_options": {
     "followSymlinks": false
