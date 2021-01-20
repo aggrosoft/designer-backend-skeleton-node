@@ -1,6 +1,7 @@
 {
   "watch": true,
-  "script": "npm -- run serve -- --config \"./config.sample.json\"",
+  "script": "./index.js",
+  "args": "--config config.sample.json",
   "ignore_watch" : ["node_modules", "var"],
   "watch_options": {
     "followSymlinks": false
