@@ -68,6 +68,14 @@ Fire up the settings interface to define fonts:
 
 https://config.example.org/settings/fonts
 
+## Migration from php
+
+There is a script included that will migrate all of your data from the php backend to the node version
+
+```bash
+node migrate.js --path "[PATH_TO_PHP_BACKEND]" --type "php" --config "config.json"
+```
+
 ## Security
 
 :exclamation: Be sure to modify user in the auth section of the config file,
