@@ -27,6 +27,31 @@ Files are stored in the var/ subfolders by default.
 Point your webserver to serve the root of the application, it is pre configured to work with
 apache webserver. We recommend using a subdomain or a separate domain for the app e.g.: https://config.example.org
 
+## Running
+
+We recommend using [pm2](https://pm2.keymetrics.io/) to run the application, we ship a process.json file that you can use
+for easy start up:
+
+```bash
+npm install pm2 -g
+pm2 run process.json
+```
+
+There are multiple ways to keep the application running on system restarts - see [pm2 docs](https://pm2.keymetrics.io/docs/usage/startup/).
+One easy way that does not need root permissions is saving the process list and adding a startup cron
+
+```bash
+pm2 save
+```
+
+Cronjob (adjust path to node and pm2 accordingly)
+
+```
+@reboot /usr/bin/node /usr/bin/pm2 resurrect
+```
+
+For root enabled servers we recommend using `pm2 startup` to generate a startup script
+
 ## Usage
 
 Depending on your consuming system you will need to configure upload and config urls. Use as following:
