@@ -8,7 +8,7 @@
   "config": {
     "path": "var/configs/",
     "tmp": "var/tmp/",
-    "cache_previews": false
+    "cache_previews": true
   },
   "fonts": {
     "path": "var/fonts/"
@@ -22,6 +22,8 @@
     "tmp": "var/tmp/"
   },
   "auth": {
+    "challenge": true,
+    "realm": "Shirtnetwork Designer Backend",
     "users": {
       "user": "passw0rd"
     }
