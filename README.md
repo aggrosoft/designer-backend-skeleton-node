@@ -9,7 +9,7 @@ this skeleton to your own needs. This is the nodejs version, **[PHP Version can 
 Use git to clone the repository
 
 ```bash
-git clone https://github.com/aggrosoft/designer-backend-skeleton.git
+git clone https://github.com/aggrosoft/designer-backend-skeleton-node.git
 ```
 
 Then install the dependencies using npm (or yarn) inside the created folder
